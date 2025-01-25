@@ -687,7 +687,7 @@ table tr td,table tr th {
 }
 
 .item-view .item-title-product,.item-price,.temabanua-detail {
-    margin: 0 0 15px
+    margin: 0 0 15px;
 }
 
 .status-product:last-child {
