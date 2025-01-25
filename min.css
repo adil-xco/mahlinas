@@ -79,9 +79,9 @@ a {
 }
 
 b,strong {
-    font-weight: 200;
+    font-weight: 400;
         font-style: normal;
-        font-size: 16px;
+        font-size: 17px;
     
 }
 .price-value {
