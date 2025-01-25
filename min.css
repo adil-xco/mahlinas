@@ -1896,8 +1896,8 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
 }
 
 .option-product div.selected {
-    background-color: var(--keybokep);
-    color: #fff
+
+    color: #000
 }
 
 .productCheckout {
