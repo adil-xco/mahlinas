@@ -2014,6 +2014,141 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
     list-style: none
 }
 
+.secin {
+position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    left: 0px;
+
+
+}
+.maxi {
+
+      display: block;
+
+}
+  @media only screen and (min-width: 769px) {
+    #cssmenu {
+      display: none;
+    }
+ 
+
+/* first stage */
+
+nav > ul {
+position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+nav a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+nav ul li {
+  color: #fff;
+  list-style: none;
+}
+
+nav > ul > li > a {
+  padding: 20px 13px 16px;
+}
+
+nav ul > li.submenu > a:after {
+  position: relative;
+  float: right;
+  content: '';
+  margin-left: 10px;
+  margin-top: 8px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+}
+
+nav ul > li.submenu:hover > a:after {
+  margin-top: 2px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+}
+
+nav > ul > li:hover {
+
+border-bottom: 3px solid #000;
+}
+
+/* second stage (the mega-menu) */
+
+nav ul.megamenu {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: -9999px; 
+    left: 0;
+    padding: 45px;
+    background: #fff;
+    text-align: left;
+    z-index: 1;
+    border-top: 1px solid #eceff1;
+    justify-content: center;
+}
+nav ul.megamenu{
+
+    width: 100%;
+}
+nav ul li:hover ul.megamenu {
+  top: 100%;
+}
+
+/* third stage (child-menus in the mega-menu) */
+
+nav ul.megamenu ul {
+  width: 10%;
+              margin: 0 2% 0;
+  color: #000;
+  box-shadow: none;
+}
+
+nav ul.megamenu h4 {
+  font-size: 15px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+nav ul.megamenu ul li {
+  display: block;
+}
+
+nav ul.megamenu ul li a {
+  margin-top: 10px;
+  transition: 0.5s;
+  color: #000;
+font-weight: 300;
+            font-size: 13px;
+}
+
+nav ul.megamenu ul li a:hover {
+  color: #4096ee;
+}
+}
+  @media only screen and (max-width: 795px) {
+    #maxi {
+      display: none;
+    }
+
+}
 .temabanua_down .downT {
     transform: rotate(180deg)
 }
@@ -2051,14 +2186,14 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
 .flex {
     display: flex;
     align-items: center;
-    margin: 30px 0 20px  
+    margin: 20px 0 20px  
 }
 
 .ratings-reviews {
 
     border-radius: 10px;
-    padding: 20px;
-    margin: 20px auto;
+    padding: 15px;
+    margin: 5% 0 0;
     background: #f9f9f9;
 }
 
