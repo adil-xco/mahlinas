@@ -2097,7 +2097,7 @@ nav ul.megamenu {
     width: 100%;
     top: -9999px; 
     left: 0;
-    padding: 35px;
+    padding: 40px 0;
     background: #fff;
     text-align: left;
     z-index: 1;
@@ -2116,7 +2116,7 @@ nav ul li:hover ul.megamenu {
 
 nav ul.megamenu ul {
   width: 10%;
-              margin: 0 2.3% 0;
+  margin: 0 34px 0;
   color: #000;
   box-shadow: none;
 }
