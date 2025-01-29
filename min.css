@@ -850,7 +850,7 @@ body {
 .header img {
     display: block;
     width: auto;
-    margin: 20px 0;
+    margin: 20px 0 17px;
     max-height: 36px
 }
 
