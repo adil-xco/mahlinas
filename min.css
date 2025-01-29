@@ -850,7 +850,7 @@ body {
 .header img {
     display: block;
     width: auto;
-    margin: 20px 0 17px;
+    margin: 20px 0 15px;
     max-height: 36px
 }
 
@@ -2735,7 +2735,8 @@ nav ul.megamenu ul li a:hover {
     }
 
     .header img {
-        display: inline-block
+        display: inline-block;
+        margin: 20px 0 8px;
     }
 
     .footer-wrapper .grid {
