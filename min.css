@@ -2015,7 +2015,35 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
 .productTab .tabNavs ul {
     list-style: none
 }
-
+#cookie-popup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    color: #a3a2a2;
+    text-align: center;
+    padding: 15px;
+    z-index: 1000;
+    display: none;
+    font-weight: 200;
+  }
+  #cookie-popup a {
+    color: #a3a2a2;
+    text-decoration: underline;
+  }
+  #cookie-popup button {
+    margin-left: 15px;
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #cookie-popup button:hover {
+    background-color: #0056b3;
+  }
 .secin {
 position: fixed;
     top: 0;
@@ -2023,13 +2051,9 @@ position: fixed;
     margin: 0 auto;
     width: 100%;
     left: 0px;
-
-
 }
 .maxi {
-
       display: block;
-
 }
   @media only screen and (min-width: 769px) {
     #cssmenu {
@@ -2053,7 +2077,7 @@ nav a {
   display: block;
   color: #000;
   text-decoration: none;
-  font-size: 90%;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
 }
@@ -2064,7 +2088,7 @@ nav ul li {
 }
 
 nav > ul > li > a {
-  padding: 19px 13px 16px;
+  padding: 21px 13px 14px;
 }
 
 nav ul > li.submenu > a:after {
