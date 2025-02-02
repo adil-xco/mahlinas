@@ -1231,7 +1231,7 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
     display: none
 }
 
-.option-product div#coklat,.option-product div#blue,.option-product div#merah,.option-product div#hitam,.option-product div#hijau,.option-product div#kuning,.option-product div#putih,.option-product div#ungo,.option-product div#gold,.option-product div#gray,.option-product div#orange {
+.option-product div#coklat,.option-product div#blue,.option-product div#pink,.option-product div#red,.option-product div#black,.option-product div#sky,.option-product div#hijau,.option-product div#kuning,.option-product div#putih,.option-product div#ungo,.option-product div#gold,.option-product div#gray,.option-product div#orange {
     border: 0;
     display: inline-block;
     vertical-align: middle;
@@ -1244,26 +1244,30 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
     border-radius: 50%
 }
 
-.option-product div.selected#coklat,.option-product div.selected#blue,.option-product div.selected#merah,.option-product div.selected#hitam,.option-product div.selected#hijau,.option-product div.selected#kuning,.option-product div.selected#putih,.option-product div.selected#ungo,.option-product div.selected#gold,.option-product div.selected#gray,.option-product div.selected#orange {
+.option-product div.selected#coklat,.option-product div.selected#blue,.option-product div#pink,.option-product div.selected#red,.option-product div#sky,.option-product div.selected#black,.option-product div.selected#hijau,.option-product div.selected#kuning,.option-product div.selected#putih,.option-product div.selected#ungo,.option-product div.selected#gold,.option-product div.selected#gray,.option-product div.selected#orange {
     box-shadow: 0 0 0 2px #ffffff,0 0 0 3px rgba(0,0,0,0.3)
 }
 
-.option-product div#merah {
+.option-product div#red {
     background: red
 }
 
+.option-product div#pink {
+    background: #FFC0CB
+}
 .option-product div#coklat {
     background: brown
 }
-
 .option-product div#blue {
     background: #1a73e8
 }
 
 .option-product div#gold {
-    background: #ffd700
+    background: #D1B93C
 }
-
+.option-product div#sky {
+    background: #D1B93C
+}
 .option-product div#gray {
     background: #808080
 }
@@ -1280,7 +1284,7 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
     background: #fff
 }
 
-.option-product div#hitam {
+.option-product div#black {
     background: #000
 }
 
@@ -1877,7 +1881,7 @@ a.blog-pager-older-link:before,a.blog-pager-older-link:hover {
     font-size: 20px; /* حجم الخط */
     color: #000; /* لون النص */
     font-weight: 500; /* سمك النص */
-    text-align: center; /* محاذاة النص */
+    text-align: left; /* محاذاة النص */
     margin: 15px 0; /* مسافة حول النص */
 }
 .custom-texti {
