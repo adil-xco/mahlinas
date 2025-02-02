@@ -624,8 +624,11 @@ table tr td,table tr th {
 .temabanua-off-price {
     display: block;
     margin-left: 10px;
-    color: #999;
-    text-decoration: line-through
+    color: #8c8c8c;
+    text-decoration: line-through;
+        font-weight: 300;
+    font-style: normal;
+    
 }
 
 .item-view .temabanua-off-price {
@@ -844,7 +847,9 @@ body {
 }
 
 .header a:hover,.off-sale-price {
-    color: var(--keycolor)
+    color: #000000;
+        font-size: 20px;
+        padding-right: 15px;
 }
 
 .header img {
